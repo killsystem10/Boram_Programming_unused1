@@ -1,7 +1,10 @@
 ﻿#include <stdio.h>
+#include <stdbool.h>
 
 int main() {
-	char a[2001] = "";
-	fgets(a, 2000, stdin);
-	printf("%s", a);
+
+	bool a = false;
+	bool b = 25;
+	printf("%d %d\n", a, 0);
+	printf("%d %d\n", b, true);
 }
