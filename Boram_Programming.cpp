@@ -42,5 +42,5 @@ int main() {
 
 int Bomb(){
 	int key;
-	scanf(")
+	scanf();
 }
